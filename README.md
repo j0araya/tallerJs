@@ -78,13 +78,13 @@ var persona2 = Object.assing({}, persona);
 
 ```javascript
 if (condicionEsVerdadera) {
-		// hace esto
+    // hace esto
 } else if (estaSiEsVerdadera) {
-		// sino haz esto
+    // sino haz esto
 } else if (estaSiQueSiEsVerdadera) {
-		//sino esto
+    //sino esto
 } else {
-		// si ningun caso es verdadero hará esto
+    // si ningun caso es verdadero hará esto
 }
 ```
 
@@ -94,13 +94,13 @@ EJ:
 var counter = 5;
 
 if (counter === 3) { // es igual a 3?
-		// hace esto
+    // hace esto
 } else if (counter !== 4) { es distinto de 4? 
-		// sino haz esto
+    // sino haz esto
 } else if (counter === 8) { // es igual a 8?
-		//sino esto
+    //sino esto
 } else {
-		// si ningun caso es verdadero hará esto // entrara acá. ningun caso anterior cumple la condición.
+    // si ningun caso es verdadero hará esto // entrara acá. ningun caso anterior cumple la condición.
 }
 ```
 
@@ -135,18 +135,18 @@ if (!0) { }
 
 ```javascript
 switch (variableOCondicionAEvaluar) {
-	case (esEsteResultado):
-		// hace algo
-		break;
-	case (oEsEsteResultado):
-		// hace algo
-		break;
-	case (oEsEsteResultado):
-		// hace algo
-		break;
-	default:
-		// Si no entra a ningun caso
-		break;
+  case (esEsteResultado):
+    // hace algo
+    break;
+  case (oEsEsteResultado):
+    // hace algo
+    break;
+  case (oEsEsteResultado):
+    // hace algo
+    break;
+  default:
+    // Si no entra a ningun caso
+    break;
 }
 ```
 
@@ -156,18 +156,18 @@ EJ:
 var counter = 5;
 
 switch (counter) {
-	case (1): // no es este caso
-		// hace algo
-		break;
-	case (3): // no es este caso
-		// hace algo
-		break;
-	case (5): // si es este caso
-		// hace algo
-		break;
-	default:
-		// Si no entra a ningun caso // no entra aca por los break;
-		break;
+  case (1): // no es este caso
+    // hace algo
+    break;
+  case (3): // no es este caso
+    // hace algo
+    break;
+  case (5): // si es este caso
+    // hace algo
+    break;
+  default:
+    // Si no entra a ningun caso // no entra aca por los break;
+    break;
 }
 ```
 
@@ -177,7 +177,7 @@ switch (counter) {
 
 ```javascript
 while(condicionEsVerdadera) { // mientras sea verdadera la condicion;
-	// hace esto
+  // hace esto
 }
 ```
 
@@ -186,8 +186,8 @@ EJ:
 ```javascript
 var counter = 0;
 while(counter < 10) { // mientras sea verdadera la condicion;
-	// hace esto
-	counter = counter +1; // tambien se puede escribir counter += 1;
+  // hace esto
+  counter = counter +1; // tambien se puede escribir counter += 1;
 }
 ```
 
@@ -195,7 +195,7 @@ while(counter < 10) { // mientras sea verdadera la condicion;
 
 ```javascript
 for (valorInicial; condicionEsVerdadera; incrementoValorInicial){
-	//hace algo tantas veces la condicion se cumpla
+  //hace algo tantas veces la condicion se cumpla
 }
 ```
 
@@ -208,8 +208,8 @@ var persona3 = { id: 8, name: 'nombre3' }
 var lista = [person1, persona2, { id: 9, name: 'nomber4' }, persona3]; // se puede hacer esto la lista tiene 4 objetos.
 
 for (let index = 0; index < lista.length; index++) {
-	var item = lista[index];  // se accede a la lista en la posicion index. recordar que el primer elemento de un arreglo/lista es el 0;
-	// hace algo.
+  var item = lista[index];  // se accede a la lista en la posicion index. recordar que el primer elemento de un arreglo/lista es el 0;
+  // hace algo.
 }
 ```
 
@@ -217,9 +217,9 @@ for (let index = 0; index < lista.length; index++) {
 
 ```javascript
 const nombreDeLaFuncion = function(valorEntrada1, valorEntrada2, valoreEntrada3) { //puede tener la cantidad de valores de entrada que se necesite.
-	//hace algo;
-	return; // termina la función y retorna un valor, si no tiene valor retorna undefined.
-	console.log('ola ke ase') // este codigo no se ejecuta.
+  //hace algo;
+  return; // termina la función y retorna un valor, si no tiene valor retorna undefined.
+  console.log('ola ke ase') // este codigo no se ejecuta.
 }
 ```
 
@@ -227,13 +227,13 @@ EJ:
 
 ```javascript
 const suma = function(valor1, valor2) {
-	if (valor1 === undefined || valor2 === undefined) {
-		return; // la función  si no recibe el valor1 O el valor 2 retorna.
-	}
-	if (typeof valor1  !== 'number' || typeof valor2 !== 'number') {
-		return; // si los tipos de variables de los valores de entrada no son sumeros retorna la funcion.
-	}
-	return valor1 + valor2; // si ambos valores existen retorna la suma.
+  if (valor1 === undefined || valor2 === undefined) {
+    return; // la función  si no recibe el valor1 O el valor 2 retorna.
+  }
+  if (typeof valor1  !== 'number' || typeof valor2 !== 'number') {
+    return; // si los tipos de variables de los valores de entrada no son sumeros retorna la funcion.
+  }
+  return valor1 + valor2; // si ambos valores existen retorna la suma.
 }
 ```
 
@@ -241,8 +241,8 @@ Arrow Function [Link](https://developer.mozilla.org/es/docs/Web/JavaScript/Refer
 
 ```javascript
 const nombreFuncion = (valorDeEntrada, otroValorDeEntrada) => {
-	return; // lo mismo que la funcion anterior.
-	console.log('ola ke ase') // este codigo no se ejecuta.
+  return; // lo mismo que la funcion anterior.
+  console.log('ola ke ase') // este codigo no se ejecuta.
 }
 ```
 
@@ -250,13 +250,13 @@ EJ:
 
 ```javascript
 const suma = (valor1, valor2) => {
-	if (valor1 === undefined || valor2 === undefined) {
-	return; // la función  si no recibe el valor1 O el valor 2 retorna.
-	}
-	if (typeof valor1  !== 'number' || typeof valor2 !== 'number') {
-	return; // si los tipos de variables de los valores de entrada no son sumeros retorna la funcion.
-	}
-	return valor1 + valor2;
+  if (valor1 === undefined || valor2 === undefined) {
+  return; // la función  si no recibe el valor1 O el valor 2 retorna.
+  }
+  if (typeof valor1  !== 'number' || typeof valor2 !== 'number') {
+  return; // si los tipos de variables de los valores de entrada no son sumeros retorna la funcion.
+  }
+  return valor1 + valor2;
 }
 ```
 
@@ -297,7 +297,7 @@ lista.length || lista2.length
 0 || 3 
 ```
 Esto es lo que evalua la linea anterior. el largo de la lista 1 que no tiene elementos(lenght va a ser 0) y el largo de la lista 2 que tiene 3 elementos. esto sera verdadero aunque recordar que el valor 0 se evalua como false
-			
+      
 ## && and 
 
 ```javascript
