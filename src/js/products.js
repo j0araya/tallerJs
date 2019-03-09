@@ -79,8 +79,8 @@ class Products {
     `
   <div class="col-md-4 col-sm-6 col-xs-12" id="product-${id}" style="margin-top: 16px;">
     <div class="card h-100">
-      <div class="card-header bg-light d-flex justify-content-between align-items-center">
-        <div style="color: black;"> ${name} </div> <div><button id="delete-button-product-${id}" class="btn btn-dark btn-sm">X</button></div>
+      <div class="card-header bg-dark d-flex justify-content-between align-items-center">
+        <div style="color: white;"> ${name} </div> <div><button id="delete-button-product-${id}" class="btn btn-dark btn-sm">X</button></div>
       </div>
       <div class="card-body">
         ${description}
