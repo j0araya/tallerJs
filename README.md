@@ -1,11 +1,9 @@
 # tallerJs (Contenido)
 
-
-##Diagrama De flujo.
-
-[Link](https://concepto.de/diagrama-de-flujo/)
+##Diagrama De flujo [Link](https://concepto.de/diagrama-de-flujo/)
 
 ## Variables [Link](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Grammar_and_Types)
+
 
 - let
 - var 
@@ -68,7 +66,7 @@ La copia por referencia crea una copia de los valores, por lo que cada modificac
 ```javascript
 var persona2 = { ... persona };  
 ```
-Operador iterador [Link](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Sintaxis_Spread)
+Operador iterador(...) [Link](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Sintaxis_Spread)
 
 ```javascript
 var persona2 = Object.assing({}, persona);
@@ -251,10 +249,10 @@ EJ:
 ```javascript
 const suma = (valor1, valor2) => {
   if (valor1 === undefined || valor2 === undefined) {
-  return; // la función  si no recibe el valor1 O el valor 2 retorna.
+    return; // la función  si no recibe el valor1 O el valor 2 retorna.
   }
   if (typeof valor1  !== 'number' || typeof valor2 !== 'number') {
-  return; // si los tipos de variables de los valores de entrada no son sumeros retorna la funcion.
+    return; // si los tipos de variables de los valores de entrada no son sumeros retorna la funcion.
   }
   return valor1 + valor2;
 }
@@ -263,13 +261,13 @@ const suma = (valor1, valor2) => {
 
 ## Tabla de verdad 
 
-Video explicativo tablas de verdad[Link](https://www.youtube.com/watch?v=XbfuubPSHWY)
+Video explicativo tablas de verdad [Link](https://www.youtube.com/watch?v=XbfuubPSHWY)
 
-Comparaciones[Link](https://developer.mozilla.org/es/docs/Web/JavaScript/Equality_comparisons_and_sameness)
+Comparaciones [Link](https://developer.mozilla.org/es/docs/Web/JavaScript/Equality_comparisons_and_sameness)
 
-Operadores logicos[[Link]](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators#Operadores_l%C3%B3gicos)
+Operadores logicos [Link](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators#Operadores_l%C3%B3gicos)
 
-## || or
+## or ||
 
 ```javascript
 var lista = [];
@@ -298,7 +296,7 @@ lista.length || lista2.length
 ```
 Esto es lo que evalua la linea anterior. el largo de la lista 1 que no tiene elementos(lenght va a ser 0) y el largo de la lista 2 que tiene 3 elementos. esto sera verdadero aunque recordar que el valor 0 se evalua como false
       
-## && and 
+## and && 
 
 ```javascript
 true && true = true -> esto es true
