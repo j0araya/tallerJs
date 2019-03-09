@@ -143,40 +143,41 @@
 			break;
 	}
 
-## Ciclos
+## Ciclos [https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Bucles_e_iteraci%C3%B3n]
 
-			https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Bucles_e_iteraci%C3%B3n
+	
 			
 	## while
 
-			while(condicionEsVerdadera) { // mientras sea verdadera la condicion;
-			// hace esto
-			}
+	while(condicionEsVerdadera) { // mientras sea verdadera la condicion;
+		// hace esto
+	}
 
-			EJ:
-			var counter = 0;
-			while(counter < 10) { // mientras sea verdadera la condicion;
-			// hace esto
-			counter = counter +1; // tambien se puede escribir counter += 1;
-			}
+	EJ:
+
+	var counter = 0;
+	while(counter < 10) { // mientras sea verdadera la condicion;
+		// hace esto
+		counter = counter +1; // tambien se puede escribir counter += 1;
+	}
 
 	## for 
 
-			for (valorInicial; condicionEsVerdadera; incrementoValorInicial){
-			//hace algo tantas veces la condicion se cumpla
-			}
+	for (valorInicial; condicionEsVerdadera; incrementoValorInicial){
+		//hace algo tantas veces la condicion se cumpla
+	}
 
-			EJ:
+	EJ:
 
-			var persona1 = { id: 6, name: 'nombre1' }
-			var persona2 = { id: 7 name: 'nombre2' }
-			var persona3 = { id: 8, name: 'nombre3' }
-			var lista = [person1, persona2, { id: 9, name: 'nomber4' }, persona3]; // se puede hacer esto la lista tiene 4 objetos.
+	var persona1 = { id: 6, name: 'nombre1' }
+	var persona2 = { id: 7 name: 'nombre2' }
+	var persona3 = { id: 8, name: 'nombre3' }
+	var lista = [person1, persona2, { id: 9, name: 'nomber4' }, persona3]; // se puede hacer esto la lista tiene 4 objetos.
 
-			for (let index = 0; index < lista.length; index++) {
-			var item = lista[index]; // se accede a la lista en la posicion index. recordar que el primer elemento de un arreglo/lista es el 0;
-			// hace algo.
-			}
+	for (let index = 0; index < lista.length; index++) {
+		var item = lista[index]; // se accede a la lista en la posicion index. recordar que el primer elemento de un arreglo/lista es el 0;
+		// hace algo.
+	}
 
 ## Funciones
 
@@ -184,20 +185,20 @@
 
 			
 	const nombreDeLaFuncion = function(valorEntrada1, valorEntrada2, valoreEntrada3) { //puede tener la cantidad de valores de entrada que se necesite.
-			//hace algo;
-			return; // termina la función y retorna un valor, si no tiene valor retorna undefined.
-			console.log('ola ke ase') // este codigo no se ejecuta.
+		//hace algo;
+		return; // termina la función y retorna un valor, si no tiene valor retorna undefined.
+		console.log('ola ke ase') // este codigo no se ejecuta.
 	}
 
 	EJ:
 	const suma = function(valor1, valor2) {
-			if (valor1 === undefined || valor2 === undefined) {
+		if (valor1 === undefined || valor2 === undefined) {
 			return; // la función  si no recibe el valor1 O el valor 2 retorna.
-			}
-			if (typeof valor1  !== 'number' || typeof valor2 !== 'number') {
+		}
+		if (typeof valor1  !== 'number' || typeof valor2 !== 'number') {
 			return; // si los tipos de variables de los valores de entrada no son sumeros retorna la funcion.
-			}
-			return valor1 + valor2; // si ambos valores existen retorna la suma.
+		}
+		return valor1 + valor2; // si ambos valores existen retorna la suma.
 	}
 
 	Arrow Function
@@ -205,20 +206,20 @@
 	https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Funciones/Arrow_functions
 
 	const nombreFuncion = (valorDeEntrada, otroValorDeEntrada) => {
-			return; // lo mismo que la funcion anterior.
-			console.log('ola ke ase') // este codigo no se ejecuta.
+		return; // lo mismo que la funcion anterior.
+		console.log('ola ke ase') // este codigo no se ejecuta.
 	}
 
 	EJ: 
 
 	const suma = (valor1, valor2) => {
-			if (valor1 === undefined || valor2 === undefined) {
-			return; // la función  si no recibe el valor1 O el valor 2 retorna.
-			}
-			if (typeof valor1  !== 'number' || typeof valor2 !== 'number') {
-			return; // si los tipos de variables de los valores de entrada no son sumeros retorna la funcion.
-			}
-			return valor1 + valor2;
+		if (valor1 === undefined || valor2 === undefined) {
+		return; // la función  si no recibe el valor1 O el valor 2 retorna.
+		}
+		if (typeof valor1  !== 'number' || typeof valor2 !== 'number') {
+		return; // si los tipos de variables de los valores de entrada no son sumeros retorna la funcion.
+		}
+		return valor1 + valor2;
 	}
 
 
