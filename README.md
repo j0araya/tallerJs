@@ -1,6 +1,8 @@
 # tallerJs (Contenido)
 
-##Diagrama De flujo [Link](https://concepto.de/diagrama-de-flujo/)
+Taller de javascript básico.
+
+## Diagrama De flujo [Link](https://concepto.de/diagrama-de-flujo/)
 
 ## Variables [Link](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Grammar_and_Types)
 
